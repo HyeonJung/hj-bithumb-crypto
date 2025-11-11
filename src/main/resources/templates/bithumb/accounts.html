@@ -39,7 +39,7 @@
 <body>
     <h1>Bithumb Accounts</h1>
 
-    <form th:action="@{/bithumb/order}" method="post" style="text-align:center; margin-bottom:30px;">
+    <form id="orderForm" th:action="@{/bithumb/order}" method="post" style="text-align:center; margin-bottom:30px;">
         <label style="margin-right:15px;">마켓: <input type="text" name="market" placeholder="예: KRW-BTC" required style="font-family:inherit; padding:4px; border-radius:4px; border:1px solid #ccc;"></label>
         <label style="margin-right:15px;">매수/매도: 
             <select name="side" required style="font-family:inherit; padding:4px; border-radius:4px; border:1px solid #ccc;">
@@ -78,5 +78,33 @@
             </tr>
         </tbody>
     </table>
+
+<script>
+document.getElementById("orderForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(e.target);
+    const data = Object.fromEntries(formData.entries());
+
+    try {
+        const response = await fetch("/bithumb/order", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: new URLSearchParams(data)
+        });
+
+        if (response.ok) {
+            window.location.reload(); // 주문 완료 후 페이지 새로고침
+        } else {
+            const errorText = await response.text();
+            console.error("주문 실패:", errorText);
+            alert("주문 실패: " + errorText);
+        }
+    } catch (err) {
+        console.error("주문 오류:", err);
+        alert("주문 중 오류 발생: " + err);
+    }
+});
+</script>
 </body>
 </html>

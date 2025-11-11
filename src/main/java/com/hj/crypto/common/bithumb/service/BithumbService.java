@@ -10,6 +10,7 @@ import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestClient;
 
 import com.auth0.jwt.JWT;
@@ -109,7 +110,11 @@ public class BithumbService {
 
             log.info("Order Response: {}", response);
             return response;
+        } catch (HttpClientErrorException e) {
+            log.error("Bithumb 주문 오류 응답", e);
+            throw new RuntimeException(e.getResponseBodyAsString(), e);
         } catch (Exception e) {
+            log.error("Bithumb 주문 API 호출 중 오류 발생", e);
             throw new RuntimeException("Bithumb 주문 API 호출 실패", e);
         }
     }

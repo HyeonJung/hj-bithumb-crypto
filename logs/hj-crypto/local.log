@@ -4380,3 +4380,792 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [{"uui
 2025-11-11 17:02:54.463 [DEBUG] [http-nio-8080-exec-3] [36mc.h.c.c.b.service.BithumbService[0;39m - Parsed Accounts: [BithumbAccount(currency=P, balance=2516, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=KRW, balance=5967.472622, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=XRP, balance=0.00000048, locked=0, avgBuyPrice=3450, avgBuyPriceModified=false, unitCurrency=KRW)]
 2025-11-11 17:14:39.123 [INFO ] [SpringApplicationShutdownHook] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
 2025-11-11 17:14:39.132 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:19:18.271 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 52702 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:19:18.272 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:19:18.273 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:19:18.357 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-11 17:19:18.357 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-11 17:19:18.619 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:19:18.622 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:19:18.623 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:19:18.623 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:19:18.638 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:19:18.638 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 281 ms
+2025-11-11 17:19:18.779 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:19:18.783 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:19:18.787 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:19:18.792 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.721 seconds (process running for 0.867)
+2025-11-11 17:19:27.258 [INFO ] [File Watcher] [36mo.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[0;39m - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-11 17:19:27.262 [INFO ] [Thread-5] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:19:27.262 [INFO ] [tomcat-shutdown] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:19:27.267 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:19:27.268 [INFO ] [Thread-5] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:19:27.315 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 52702 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:19:27.315 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:19:27.315 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:19:27.377 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:19:27.378 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:19:27.378 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:19:27.378 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:19:27.382 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:19:27.382 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 66 ms
+2025-11-11 17:19:27.412 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:19:27.414 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:19:27.415 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:19:27.417 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.123 seconds (process running for 9.492)
+2025-11-11 17:19:27.418 [INFO ] [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+2025-11-11 17:19:28.339 [INFO ] [SpringApplicationShutdownHook] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:19:28.340 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:19:30.019 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 53373 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:19:30.019 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:19:30.020 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:19:30.113 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-11 17:19:30.113 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-11 17:19:30.386 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:19:30.391 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:19:30.392 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:19:30.392 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:19:30.412 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:19:30.412 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 299 ms
+2025-11-11 17:19:30.572 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:19:30.577 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:19:30.581 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:19:30.586 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.77 seconds (process running for 0.898)
+2025-11-11 17:19:33.712 [INFO ] [http-nio-8080-exec-1] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-11 17:19:33.712 [INFO ] [http-nio-8080-exec-1] [36mo.s.web.servlet.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet'
+2025-11-11 17:19:33.713 [INFO ] [http-nio-8080-exec-1] [36mo.s.web.servlet.DispatcherServlet[0;39m - Completed initialization in 0 ms
+2025-11-11 17:19:33.958 [DEBUG] [http-nio-8080-exec-1] [36mc.h.c.c.b.service.BithumbService[0;39m - Parsed Accounts: [BithumbAccount(currency=P, balance=2516, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=KRW, balance=5967.472622, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=XRP, balance=0.00000048, locked=0, avgBuyPrice=3450, avgBuyPriceModified=false, unitCurrency=KRW)]
+2025-11-11 17:19:35.396 [DEBUG] [http-nio-8080-exec-2] [36mc.h.c.c.b.service.BithumbService[0;39m - Parsed Accounts: [BithumbAccount(currency=P, balance=2516, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=KRW, balance=5967.472622, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=XRP, balance=0.00000048, locked=0, avgBuyPrice=3450, avgBuyPriceModified=false, unitCurrency=KRW)]
+2025-11-11 17:19:36.602 [DEBUG] [http-nio-8080-exec-3] [36mc.h.c.c.b.service.BithumbService[0;39m - Parsed Accounts: [BithumbAccount(currency=P, balance=2516, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=KRW, balance=5967.472622, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=XRP, balance=0.00000048, locked=0, avgBuyPrice=3450, avgBuyPriceModified=false, unitCurrency=KRW)]
+2025-11-11 17:19:46.109 [INFO ] [http-nio-8080-exec-4] [36mc.h.c.c.b.service.BithumbService[0;39m - requestBody : {market=KRW-USDT, side=bid, volume=4.0, price=123123.0, ord_type=limit}
+2025-11-11 17:19:46.210 [ERROR] [http-nio-8080-exec-4] [36mo.a.c.c.C.[.[.[.[dispatcherServlet][0;39m - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Bithumb 주문 API 호출 실패] with root cause
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"error":{"name":"호가단위","message":"호가단위를 잘못 입력하셨습니다. : 100"}}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:103)
+	at org.springframework.web.client.StatusHandler.lambda$defaultHandler$3(StatusHandler.java:86)
+	at org.springframework.web.client.StatusHandler.handle(StatusHandler.java:146)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.applyStatusHandlers(DefaultRestClient.java:838)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.lambda$readBody$4(DefaultRestClient.java:827)
+	at org.springframework.web.client.DefaultRestClient.readWithMessageConverters(DefaultRestClient.java:216)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.readBody(DefaultRestClient.java:826)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.lambda$body$0(DefaultRestClient.java:757)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:586)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:540)
+	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:680)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:821)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.body(DefaultRestClient.java:757)
+	at com.hj.crypto.common.bithumb.service.BithumbService.placeOrder(BithumbService.java:108)
+	at com.hj.crypto.web.BithumbController.placeOrder(BithumbController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-11 17:20:22.687 [INFO ] [SpringApplicationShutdownHook] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:20:22.690 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:20:24.125 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 53962 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:20:24.125 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:20:24.126 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:20:24.208 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-11 17:20:24.209 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-11 17:20:24.503 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:20:24.507 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:20:24.508 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:20:24.508 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:20:24.526 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:20:24.526 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 317 ms
+2025-11-11 17:20:24.694 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:20:24.699 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:20:24.703 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:20:24.713 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.794 seconds (process running for 0.927)
+2025-11-11 17:20:29.585 [INFO ] [http-nio-8080-exec-1] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-11 17:20:29.585 [INFO ] [http-nio-8080-exec-1] [36mo.s.web.servlet.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet'
+2025-11-11 17:20:29.586 [INFO ] [http-nio-8080-exec-1] [36mo.s.web.servlet.DispatcherServlet[0;39m - Completed initialization in 1 ms
+2025-11-11 17:20:29.871 [DEBUG] [http-nio-8080-exec-1] [36mc.h.c.c.b.service.BithumbService[0;39m - Parsed Accounts: [BithumbAccount(currency=P, balance=48, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=KRW, balance=35897.598598, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=ETH, balance=0.00223473, locked=0, avgBuyPrice=5822821, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=XRP, balance=0.000069, locked=0, avgBuyPrice=879.7, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=SOL, balance=0.0000002, locked=0, avgBuyPrice=250501, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=ETHW, balance=0.00000146, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=DIS, balance=0.00000146, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=ZETA, balance=3.9365, locked=0, avgBuyPrice=154, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=SOPH, balance=0.00001382, locked=0, avgBuyPrice=54.29, avgBuyPriceModified=false, unitCurrency=KRW)]
+2025-11-11 17:20:41.705 [INFO ] [http-nio-8080-exec-2] [36mc.h.c.c.b.service.BithumbService[0;39m - requestBody : {market=KRW-USDT, side=bid, volume=3.5, price=1487.0, ord_type=limit}
+2025-11-11 17:20:41.842 [INFO ] [http-nio-8080-exec-2] [36mc.h.c.c.b.service.BithumbService[0;39m - Order Response: {"uuid":"C0866000000134728456","side":"bid","ord_type":"limit","price":"1487","state":"wait","market":"KRW-USDT","created_at":"2025-11-11T17:20:41+09:00","volume":"3.5","remaining_volume":"3.5","reserved_fee":"13.01125","remaining_fee":"13.01125","paid_fee":"0","locked":"5218.51125","executed_volume":"0","trades_count":0}
+2025-11-11 17:20:41.846 [ERROR] [http-nio-8080-exec-2] [36morg.thymeleaf.TemplateEngine[0;39m - [THYMELEAF][http-nio-8080-exec-2] Exception processing template "{"uuid":"C0866000000134728456","sid[...]25","paid_fee":"0","locked":"5218.51125","executed_volume":"0","trades_count":0}": Error resolving template [{"uuid":"C0866000000134728456","side":"bid","ord_type":"limit","price":"1487","state":"wait","market":"KRW-USDT","created_at":"2025-11-11T17:20:41+09:00","volume":"3.5","remaining_volume":"3.5","reserved_fee":"13.01125","remaining_fee":"13.01125","paid_fee":"0","locked":"5218.51125","executed_volume":"0","trades_count":0}], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [{"uuid":"C0866000000134728456","side":"bid","ord_type":"limit","price":"1487","state":"wait","market":"KRW-USDT","created_at":"2025-11-11T17:20:41+09:00","volume":"3.5","remaining_volume":"3.5","reserved_fee":"13.01125","remaining_fee":"13.01125","paid_fee":"0","locked":"5218.51125","executed_volume":"0","trades_count":0}], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1438)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-11 17:20:41.849 [ERROR] [http-nio-8080-exec-2] [36mo.a.c.c.C.[.[.[.[dispatcherServlet][0;39m - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [{"uuid":"C0866000000134728456","side":"bid","ord_type":"limit","price":"1487","state":"wait","market":"KRW-USDT","created_at":"2025-11-11T17:20:41+09:00","volume":"3.5","remaining_volume":"3.5","reserved_fee":"13.01125","remaining_fee":"13.01125","paid_fee":"0","locked":"5218.51125","executed_volume":"0","trades_count":0}], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [{"uuid":"C0866000000134728456","side":"bid","ord_type":"limit","price":"1487","state":"wait","market":"KRW-USDT","created_at":"2025-11-11T17:20:41+09:00","volume":"3.5","remaining_volume":"3.5","reserved_fee":"13.01125","remaining_fee":"13.01125","paid_fee":"0","locked":"5218.51125","executed_volume":"0","trades_count":0}], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1438)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-11 17:20:41.861 [WARN ] [http-nio-8080-exec-2] [36mo.s.w.s.m.s.DefaultHandlerExceptionResolver[0;39m - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter for [class java.util.LinkedHashMap] with preset Content-Type 'text/html;charset=UTF-8']
+2025-11-11 17:20:50.970 [DEBUG] [http-nio-8080-exec-3] [36mc.h.c.c.b.service.BithumbService[0;39m - Parsed Accounts: [BithumbAccount(currency=P, balance=48, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=KRW, balance=30680.088598, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=ETH, balance=0.00223473, locked=0, avgBuyPrice=5822821, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=XRP, balance=0.000069, locked=0, avgBuyPrice=879.7, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=SOL, balance=0.0000002, locked=0, avgBuyPrice=250501, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=ETHW, balance=0.00000146, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=DIS, balance=0.00000146, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=ZETA, balance=3.9365, locked=0, avgBuyPrice=154, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=USDT, balance=3.5, locked=0, avgBuyPrice=1487, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=SOPH, balance=0.00001382, locked=0, avgBuyPrice=54.29, avgBuyPriceModified=false, unitCurrency=KRW)]
+2025-11-11 17:21:05.244 [INFO ] [http-nio-8080-exec-4] [36mc.h.c.c.b.service.BithumbService[0;39m - requestBody : {market=KRW-USDT, side=ask, volume=3.5, price=1488.0, ord_type=limit}
+2025-11-11 17:21:05.383 [INFO ] [http-nio-8080-exec-4] [36mc.h.c.c.b.service.BithumbService[0;39m - Order Response: {"uuid":"C0866000000134728590","side":"ask","ord_type":"limit","price":"1488","state":"wait","market":"KRW-USDT","created_at":"2025-11-11T17:21:05+09:00","volume":"3.5","remaining_volume":"3.5","reserved_fee":"0","remaining_fee":"0","paid_fee":"0","locked":"3.5","executed_volume":"0","trades_count":0}
+2025-11-11 17:21:05.386 [ERROR] [http-nio-8080-exec-4] [36morg.thymeleaf.TemplateEngine[0;39m - [THYMELEAF][http-nio-8080-exec-4] Exception processing template "{"uuid":"C0866000000134728590","sid[...]g_fee":"0","paid_fee":"0","locked":"3.5","executed_volume":"0","trades_count":0}": Error resolving template [{"uuid":"C0866000000134728590","side":"ask","ord_type":"limit","price":"1488","state":"wait","market":"KRW-USDT","created_at":"2025-11-11T17:21:05+09:00","volume":"3.5","remaining_volume":"3.5","reserved_fee":"0","remaining_fee":"0","paid_fee":"0","locked":"3.5","executed_volume":"0","trades_count":0}], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [{"uuid":"C0866000000134728590","side":"ask","ord_type":"limit","price":"1488","state":"wait","market":"KRW-USDT","created_at":"2025-11-11T17:21:05+09:00","volume":"3.5","remaining_volume":"3.5","reserved_fee":"0","remaining_fee":"0","paid_fee":"0","locked":"3.5","executed_volume":"0","trades_count":0}], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1438)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-11 17:21:05.388 [ERROR] [http-nio-8080-exec-4] [36mo.a.c.c.C.[.[.[.[dispatcherServlet][0;39m - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [{"uuid":"C0866000000134728590","side":"ask","ord_type":"limit","price":"1488","state":"wait","market":"KRW-USDT","created_at":"2025-11-11T17:21:05+09:00","volume":"3.5","remaining_volume":"3.5","reserved_fee":"0","remaining_fee":"0","paid_fee":"0","locked":"3.5","executed_volume":"0","trades_count":0}], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [{"uuid":"C0866000000134728590","side":"ask","ord_type":"limit","price":"1488","state":"wait","market":"KRW-USDT","created_at":"2025-11-11T17:21:05+09:00","volume":"3.5","remaining_volume":"3.5","reserved_fee":"0","remaining_fee":"0","paid_fee":"0","locked":"3.5","executed_volume":"0","trades_count":0}], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1438)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-11 17:21:05.393 [WARN ] [http-nio-8080-exec-4] [36mo.s.w.s.m.s.DefaultHandlerExceptionResolver[0;39m - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter for [class java.util.LinkedHashMap] with preset Content-Type 'text/html;charset=UTF-8']
+2025-11-11 17:21:46.928 [INFO ] [File Watcher] [36mo.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[0;39m - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-11 17:21:46.930 [INFO ] [Thread-5] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:21:46.930 [INFO ] [tomcat-shutdown] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:21:46.933 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:21:46.933 [INFO ] [Thread-5] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:21:46.984 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 53962 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:21:46.985 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:21:46.985 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:21:47.096 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:21:47.097 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:21:47.097 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:21:47.097 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:21:47.101 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:21:47.101 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 115 ms
+2025-11-11 17:21:47.144 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:21:47.147 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:21:47.147 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:21:47.149 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.184 seconds (process running for 83.366)
+2025-11-11 17:21:47.151 [INFO ] [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+2025-11-11 17:21:48.563 [INFO ] [File Watcher] [36mo.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[0;39m - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-11 17:21:48.565 [INFO ] [Thread-7] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:21:48.565 [INFO ] [tomcat-shutdown] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:21:48.567 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:21:48.568 [INFO ] [Thread-7] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:21:48.627 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 53962 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:21:48.627 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:21:48.627 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:21:48.696 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:21:48.697 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:21:48.697 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:21:48.697 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:21:48.700 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:21:48.701 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 73 ms
+2025-11-11 17:21:48.723 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:21:48.725 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:21:48.725 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:21:48.727 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.12 seconds (process running for 84.943)
+2025-11-11 17:21:48.727 [INFO ] [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+2025-11-11 17:22:13.396 [INFO ] [File Watcher] [36mo.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[0;39m - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-11 17:22:13.396 [INFO ] [Thread-11] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:22:13.396 [INFO ] [tomcat-shutdown] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:13.397 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:22:13.397 [INFO ] [Thread-11] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:13.437 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 53962 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:22:13.437 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:22:13.437 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:22:13.498 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:22:13.499 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:13.499 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:22:13.499 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:22:13.503 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:22:13.503 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 65 ms
+2025-11-11 17:22:13.528 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:22:13.530 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:13.531 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:22:13.532 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.111 seconds (process running for 109.749)
+2025-11-11 17:22:13.533 [INFO ] [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+2025-11-11 17:22:14.943 [INFO ] [File Watcher] [36mo.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[0;39m - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-11 17:22:14.944 [INFO ] [Thread-15] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:22:14.945 [INFO ] [tomcat-shutdown] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:14.947 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:22:14.947 [INFO ] [Thread-15] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:15.018 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 53962 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:22:15.018 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:22:15.018 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:22:15.068 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:22:15.068 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:15.069 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:22:15.069 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:22:15.073 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:22:15.073 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 54 ms
+2025-11-11 17:22:15.097 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:22:15.099 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:15.100 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:22:15.101 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.101 seconds (process running for 111.317)
+2025-11-11 17:22:15.101 [INFO ] [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+2025-11-11 17:22:17.930 [INFO ] [File Watcher] [36mo.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[0;39m - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-11-11 17:22:17.931 [INFO ] [Thread-19] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:22:17.931 [INFO ] [tomcat-shutdown] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:17.933 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:22:17.933 [INFO ] [Thread-19] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:17.981 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 53962 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:22:17.981 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:22:17.981 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:22:18.031 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:22:18.032 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:18.032 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:22:18.032 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:22:18.035 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:22:18.035 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 53 ms
+2025-11-11 17:22:18.051 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:22:18.052 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:18.053 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:22:18.054 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.091 seconds (process running for 114.27)
+2025-11-11 17:22:18.054 [INFO ] [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+2025-11-11 17:22:19.466 [INFO ] [File Watcher] [36mo.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[0;39m - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-11-11 17:22:19.467 [INFO ] [Thread-23] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:22:19.467 [INFO ] [tomcat-shutdown] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:19.467 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:22:19.468 [INFO ] [Thread-23] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:19.501 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 53962 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:22:19.501 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:22:19.502 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:22:19.538 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:22:19.538 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:19.538 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:22:19.538 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:22:19.543 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:22:19.543 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 41 ms
+2025-11-11 17:22:19.560 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:22:19.562 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:19.563 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:22:19.564 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.074 seconds (process running for 115.78)
+2025-11-11 17:22:19.564 [INFO ] [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+2025-11-11 17:22:20.128 [INFO ] [SpringApplicationShutdownHook] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:22:20.129 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:22:21.863 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 54821 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:22:21.865 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:22:21.866 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:22:21.988 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-11 17:22:21.988 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-11 17:22:22.333 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:22:22.337 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:22.338 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:22:22.338 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:22:22.354 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:22:22.354 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 365 ms
+2025-11-11 17:22:22.539 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:22:22.550 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:22.560 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:22:22.581 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.961 seconds (process running for 1.093)
+2025-11-11 17:22:25.772 [INFO ] [http-nio-8080-exec-1] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-11 17:22:25.772 [INFO ] [http-nio-8080-exec-1] [36mo.s.web.servlet.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet'
+2025-11-11 17:22:25.772 [INFO ] [http-nio-8080-exec-1] [36mo.s.web.servlet.DispatcherServlet[0;39m - Completed initialization in 0 ms
+2025-11-11 17:22:25.789 [INFO ] [http-nio-8080-exec-1] [36mc.h.c.c.b.service.BithumbService[0;39m - requestBody : {market=KRW-USDT, side=ask, volume=3.5, price=1488.0, ord_type=limit}
+2025-11-11 17:22:29.394 [INFO ] [http-nio-8080-exec-2] [36mc.h.c.c.b.service.BithumbService[0;39m - requestBody : {market=KRW-USDT, side=ask, volume=3.5, price=1488.0, ord_type=limit}
+2025-11-11 17:22:32.007 [INFO ] [http-nio-8080-exec-3] [36mc.h.c.c.b.service.BithumbService[0;39m - requestBody : {market=KRW-USDT, side=bid, volume=3.5, price=1488.0, ord_type=limit}
+2025-11-11 17:22:34.269 [DEBUG] [http-nio-8080-exec-4] [36mc.h.c.c.b.service.BithumbService[0;39m - Parsed Accounts: [BithumbAccount(currency=P, balance=48, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=KRW, balance=30680.088598, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=ETH, balance=0.00223473, locked=0, avgBuyPrice=5822821, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=XRP, balance=0.000069, locked=0, avgBuyPrice=879.7, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=SOL, balance=0.0000002, locked=0, avgBuyPrice=250501, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=ETHW, balance=0.00000146, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=DIS, balance=0.00000146, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=ZETA, balance=3.9365, locked=0, avgBuyPrice=154, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=USDT, balance=0, locked=3.5, avgBuyPrice=1487, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=SOPH, balance=0.00001382, locked=0, avgBuyPrice=54.29, avgBuyPriceModified=false, unitCurrency=KRW)]
+2025-11-11 17:22:47.771 [INFO ] [SpringApplicationShutdownHook] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:22:47.775 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:22:49.481 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 55508 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:22:49.482 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:22:49.482 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:22:49.563 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-11 17:22:49.563 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-11 17:22:49.860 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:22:49.864 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:49.865 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:22:49.866 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:22:49.885 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:22:49.889 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 326 ms
+2025-11-11 17:22:50.034 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:22:50.040 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:22:50.044 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:22:50.049 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.776 seconds (process running for 0.924)
+2025-11-11 17:22:51.994 [INFO ] [http-nio-8080-exec-1] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-11 17:22:51.994 [INFO ] [http-nio-8080-exec-1] [36mo.s.web.servlet.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet'
+2025-11-11 17:22:51.996 [INFO ] [http-nio-8080-exec-1] [36mo.s.web.servlet.DispatcherServlet[0;39m - Completed initialization in 2 ms
+2025-11-11 17:22:52.239 [DEBUG] [http-nio-8080-exec-1] [36mc.h.c.c.b.service.BithumbService[0;39m - Parsed Accounts: [BithumbAccount(currency=P, balance=48, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=KRW, balance=30680.088598, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=ETH, balance=0.00223473, locked=0, avgBuyPrice=5822821, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=XRP, balance=0.000069, locked=0, avgBuyPrice=879.7, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=SOL, balance=0.0000002, locked=0, avgBuyPrice=250501, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=ETHW, balance=0.00000146, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=DIS, balance=0.00000146, locked=0, avgBuyPrice=0, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=ZETA, balance=3.9365, locked=0, avgBuyPrice=154, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=USDT, balance=0, locked=3.5, avgBuyPrice=1487, avgBuyPriceModified=false, unitCurrency=KRW), BithumbAccount(currency=SOPH, balance=0.00001382, locked=0, avgBuyPrice=54.29, avgBuyPriceModified=false, unitCurrency=KRW)]
+2025-11-11 17:22:57.649 [INFO ] [http-nio-8080-exec-2] [36mc.h.c.c.b.service.BithumbService[0;39m - requestBody : {market=KRW-USDT, side=bid, volume=3.5, price=1488.0, ord_type=limit}
+2025-11-11 17:22:57.733 [ERROR] [http-nio-8080-exec-2] [36mc.h.c.c.b.service.BithumbService[0;39m - Bithumb 주문 API 호출 중 오류 발생
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"error":{"name":"cross_trading","message":"제출하신 주문은 귀하가 기존에 제출하신 주문과 체결될 수 있어 취소되었습니다. 제출된 주문ID: [C0866000000134728590]"}}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:103)
+	at org.springframework.web.client.StatusHandler.lambda$defaultHandler$3(StatusHandler.java:86)
+	at org.springframework.web.client.StatusHandler.handle(StatusHandler.java:146)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.applyStatusHandlers(DefaultRestClient.java:838)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.lambda$readBody$4(DefaultRestClient.java:827)
+	at org.springframework.web.client.DefaultRestClient.readWithMessageConverters(DefaultRestClient.java:216)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.readBody(DefaultRestClient.java:826)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.lambda$body$0(DefaultRestClient.java:757)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:586)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:540)
+	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:680)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:821)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.body(DefaultRestClient.java:757)
+	at com.hj.crypto.common.bithumb.service.BithumbService.placeOrder(BithumbService.java:108)
+	at com.hj.crypto.web.BithumbController.placeOrder(BithumbController.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-11 17:24:02.525 [INFO ] [http-nio-8080-exec-4] [36mc.h.c.c.b.service.BithumbService[0;39m - requestBody : {market=KRW-USDT, side=bid, volume=3.5, price=1488.0, ord_type=limit}
+2025-11-11 17:24:02.685 [ERROR] [http-nio-8080-exec-4] [36mc.h.c.c.b.service.BithumbService[0;39m - Bithumb 주문 API 호출 중 오류 발생
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"error":{"name":"cross_trading","message":"제출하신 주문은 귀하가 기존에 제출하신 주문과 체결될 수 있어 취소되었습니다. 제출된 주문ID: [C0866000000134728590]"}}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:103)
+	at org.springframework.web.client.StatusHandler.lambda$defaultHandler$3(StatusHandler.java:86)
+	at org.springframework.web.client.StatusHandler.handle(StatusHandler.java:146)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.applyStatusHandlers(DefaultRestClient.java:838)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.lambda$readBody$4(DefaultRestClient.java:827)
+	at org.springframework.web.client.DefaultRestClient.readWithMessageConverters(DefaultRestClient.java:216)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.readBody(DefaultRestClient.java:826)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.lambda$body$0(DefaultRestClient.java:757)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:586)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:540)
+	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:680)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:821)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.body(DefaultRestClient.java:757)
+	at com.hj.crypto.common.bithumb.service.BithumbService.placeOrder(BithumbService.java:108)
+	at com.hj.crypto.web.BithumbController.placeOrder(BithumbController.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-11-11 17:24:38.283 [INFO ] [SpringApplicationShutdownHook] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:24:38.287 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:24:39.931 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 56207 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:24:39.932 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:24:39.933 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:24:40.020 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-11 17:24:40.020 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-11 17:24:40.303 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:24:40.309 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:24:40.309 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:24:40.309 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:24:40.323 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:24:40.323 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 303 ms
+2025-11-11 17:24:40.461 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:24:40.465 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:24:40.469 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:24:40.474 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.77 seconds (process running for 0.9)
+2025-11-11 17:24:44.904 [INFO ] [File Watcher] [36mo.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[0;39m - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-11-11 17:24:44.909 [INFO ] [Thread-5] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:24:44.910 [INFO ] [tomcat-shutdown] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:24:44.917 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:24:44.918 [INFO ] [Thread-5] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:24:44.978 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 56207 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:24:44.978 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:24:44.978 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:24:45.054 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:24:45.054 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:24:45.055 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:24:45.055 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:24:45.059 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:24:45.059 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 80 ms
+2025-11-11 17:24:45.099 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:24:45.102 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:24:45.103 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:24:45.105 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.157 seconds (process running for 5.53)
+2025-11-11 17:24:45.107 [INFO ] [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+2025-11-11 17:24:46.228 [INFO ] [http-nio-8080-exec-1] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-11 17:24:46.229 [INFO ] [http-nio-8080-exec-1] [36mo.s.web.servlet.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet'
+2025-11-11 17:24:46.230 [INFO ] [http-nio-8080-exec-1] [36mo.s.web.servlet.DispatcherServlet[0;39m - Completed initialization in 1 ms
+2025-11-11 17:24:46.248 [INFO ] [http-nio-8080-exec-1] [36mc.h.c.c.b.service.BithumbService[0;39m - requestBody : {market=KRW-USDT, side=bid, volume=3.5, price=1488.0, ord_type=limit}
+2025-11-11 17:24:46.445 [ERROR] [http-nio-8080-exec-1] [36mc.h.c.c.b.service.BithumbService[0;39m - Bithumb 주문 오류 응답: {"error":{"name":"cross_trading","message":"제출하신 주문은 귀하가 기존에 제출하신 주문과 체결될 수 있어 취소되었습니다. 제출된 주문ID: [C0866000000134728590]"}}
+2025-11-11 17:25:01.601 [INFO ] [SpringApplicationShutdownHook] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:25:01.602 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:25:03.315 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 56886 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:25:03.316 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:25:03.316 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:25:03.393 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-11 17:25:03.394 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-11 17:25:03.650 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:25:03.654 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:03.654 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:25:03.654 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:25:03.671 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:25:03.671 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 277 ms
+2025-11-11 17:25:03.842 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:25:03.847 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:03.851 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:25:03.857 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.747 seconds (process running for 0.896)
+2025-11-11 17:25:11.567 [INFO ] [http-nio-8080-exec-1] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-11 17:25:11.567 [INFO ] [http-nio-8080-exec-1] [36mo.s.web.servlet.DispatcherServlet[0;39m - Initializing Servlet 'dispatcherServlet'
+2025-11-11 17:25:11.568 [INFO ] [http-nio-8080-exec-1] [36mo.s.web.servlet.DispatcherServlet[0;39m - Completed initialization in 1 ms
+2025-11-11 17:25:11.585 [INFO ] [http-nio-8080-exec-1] [36mc.h.c.c.b.service.BithumbService[0;39m - requestBody : {market=KRW-USDT, side=bid, volume=3.5, price=1488.0, ord_type=limit}
+2025-11-11 17:25:11.812 [ERROR] [http-nio-8080-exec-1] [36mc.h.c.c.b.service.BithumbService[0;39m - Bithumb 주문 오류 응답: {"error":{"name":"cross_trading","message":"제출하신 주문은 귀하가 기존에 제출하신 주문과 체결될 수 있어 취소되었습니다. 제출된 주문ID: [C0866000000134728590]"}}
+2025-11-11 17:25:21.419 [INFO ] [File Watcher] [36mo.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[0;39m - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-11-11 17:25:21.426 [INFO ] [Thread-5] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:25:21.426 [INFO ] [tomcat-shutdown] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:21.430 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:25:21.431 [INFO ] [Thread-5] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:21.488 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 56886 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:25:21.488 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:25:21.488 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:25:21.551 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:25:21.551 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:21.552 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:25:21.552 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:25:21.555 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:25:21.555 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 66 ms
+2025-11-11 17:25:21.582 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:25:21.584 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:21.585 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:25:21.586 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.115 seconds (process running for 18.625)
+2025-11-11 17:25:21.587 [INFO ] [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+2025-11-11 17:25:29.055 [INFO ] [File Watcher] [36mo.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[0;39m - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-11-11 17:25:29.056 [INFO ] [Thread-7] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:25:29.056 [INFO ] [tomcat-shutdown] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:29.058 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:25:29.058 [INFO ] [Thread-7] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:29.099 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 56886 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:25:29.099 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:25:29.099 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:25:29.176 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:25:29.184 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:29.184 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:25:29.184 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:25:29.188 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:25:29.189 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 89 ms
+2025-11-11 17:25:29.216 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:25:29.219 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:29.220 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:25:29.222 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.138 seconds (process running for 26.261)
+2025-11-11 17:25:29.223 [INFO ] [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+2025-11-11 17:25:30.633 [INFO ] [File Watcher] [36mo.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[0;39m - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-11-11 17:25:30.634 [INFO ] [Thread-11] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:25:30.635 [INFO ] [tomcat-shutdown] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:30.636 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:25:30.637 [INFO ] [Thread-11] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:30.706 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 56886 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:25:30.712 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:25:30.712 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:25:30.786 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:25:30.787 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:30.787 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:25:30.787 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:25:30.790 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:25:30.790 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 76 ms
+2025-11-11 17:25:30.819 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:25:30.821 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:30.822 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:25:30.823 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.159 seconds (process running for 27.863)
+2025-11-11 17:25:30.824 [INFO ] [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+2025-11-11 17:25:43.344 [INFO ] [File Watcher] [36mo.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[0;39m - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-11 17:25:43.344 [INFO ] [Thread-15] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:25:43.345 [INFO ] [tomcat-shutdown] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:43.346 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 17:25:43.346 [INFO ] [Thread-15] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:43.381 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 56886 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 17:25:43.381 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 17:25:43.381 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 17:25:43.438 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 17:25:43.438 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:43.438 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 17:25:43.439 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 17:25:43.442 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 17:25:43.443 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 61 ms
+2025-11-11 17:25:43.463 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 17:25:43.465 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 17:25:43.467 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 17:25:43.469 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.101 seconds (process running for 40.508)
+2025-11-11 17:25:43.469 [INFO ] [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+2025-11-11 17:25:46.820 [INFO ] [SpringApplicationShutdownHook] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 17:25:46.824 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete

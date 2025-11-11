@@ -5,5 +5,5 @@ spring:
 bithumb:
     api:
       base-url: https://api.bithumb.com
-    api-key: API_KEY
-    secret-key: SECRET_KEY
+    api-key: 1
+    secret-key: 2
