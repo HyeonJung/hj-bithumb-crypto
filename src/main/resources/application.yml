@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: hj-crypto
+
+bithumb:
+    api:
+      base-url: https://api.bithumb.com
+    api-key: API_KEY
+    secret-key: SECRET_KEY

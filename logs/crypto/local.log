@@ -1,0 +1,56 @@
+2025-11-11 15:17:15.651 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 19547 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 15:17:15.652 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 15:17:15.652 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 15:17:15.674 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-11 15:17:15.674 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-11 15:17:15.989 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 15:17:15.993 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 15:17:15.993 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 15:17:15.993 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 15:17:16.008 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 15:17:16.009 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 335 ms
+2025-11-11 15:17:16.140 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 15:17:16.147 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 15:17:16.151 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 15:17:16.157 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.688 seconds (process running for 0.82)
+2025-11-11 15:17:50.859 [INFO ] [File Watcher] [36mo.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[0;39m - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-11 15:17:50.863 [INFO ] [Thread-5] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 15:17:50.864 [INFO ] [tomcat-shutdown] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 15:17:50.869 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 15:17:50.870 [INFO ] [Thread-5] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-11 15:17:50.910 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 19547 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 15:17:50.910 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 15:17:50.910 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 15:17:50.967 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 15:17:50.968 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 15:17:50.968 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 15:17:50.968 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 15:17:50.971 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 15:17:50.972 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 61 ms
+2025-11-11 15:17:50.994 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 15:17:50.997 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 15:17:50.998 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 15:17:50.999 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.105 seconds (process running for 35.662)
+2025-11-11 15:17:51.000 [INFO ] [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+2025-11-11 15:18:18.731 [INFO ] [SpringApplicationShutdownHook] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 15:18:18.735 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 15:18:23.358 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Starting CryptoApplication using Java 17.0.15 with PID 20285 (/Users/yunhyeonjung/Documents/dev/workspace/hj/crypto/target/classes started by yunhyeonjung in /Users/yunhyeonjung/Documents/dev/workspace/hj/crypto)
+2025-11-11 15:18:23.359 [DEBUG] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-11 15:18:23.359 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 15:18:23.375 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-11 15:18:23.375 [INFO ] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-11 15:18:23.643 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat initialized with port 8080 (http)
+2025-11-11 15:18:23.647 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 15:18:23.648 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardService[0;39m - Starting service [Tomcat]
+2025-11-11 15:18:23.648 [INFO ] [restartedMain] [36mo.a.catalina.core.StandardEngine[0;39m - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-11 15:18:23.665 [INFO ] [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - Initializing Spring embedded WebApplicationContext
+2025-11-11 15:18:23.665 [INFO ] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 290 ms
+2025-11-11 15:18:23.781 [INFO ] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - LiveReload server is running on port 35729
+2025-11-11 15:18:23.785 [INFO ] [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 15:18:23.790 [INFO ] [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - Tomcat started on port 8080 (http) with context path '/'
+2025-11-11 15:18:23.793 [INFO ] [restartedMain] [36mcom.hj.crypto.CryptoApplication[0;39m - Started CryptoApplication in 0.619 seconds (process running for 0.758)
+2025-11-11 15:18:47.422 [INFO ] [File Watcher] [36mo.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[0;39m - Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2025-11-11 15:18:47.426 [INFO ] [Thread-5] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-11 15:18:47.428 [INFO ] [tomcat-shutdown] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 15:18:47.437 [INFO ] [tomcat-shutdown] [36mo.s.b.w.e.tomcat.GracefulShutdown[0;39m - Graceful shutdown complete
+2025-11-11 15:18:47.438 [INFO ] [Thread-5] [36mo.a.coyote.http11.Http11NioProtocol[0;39m - Stopping ProtocolHandler ["http-nio-8080"]

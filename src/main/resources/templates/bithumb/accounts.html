@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Bithumb Account List</title>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f7f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+        th {
+            background-color: #3A7732;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bithumb Accounts</h1>
+
+    <form th:action="@{/bithumb/order}" method="post" style="text-align:center; margin-bottom:30px;">
+        <label style="margin-right:15px;">마켓: <input type="text" name="market" placeholder="예: KRW-BTC" required style="font-family:inherit; padding:4px; border-radius:4px; border:1px solid #ccc;"></label>
+        <label style="margin-right:15px;">매수/매도: 
+            <select name="side" required style="font-family:inherit; padding:4px; border-radius:4px; border:1px solid #ccc;">
+                <option value="bid">매수</option>
+                <option value="ask">매도</option>
+            </select>
+        </label>
+        <label style="margin-right:15px;">수량: <input type="number" step="0.0001" name="volume" required style="font-family:inherit; padding:4px; border-radius:4px; border:1px solid #ccc; width:80px;"></label>
+        <label style="margin-right:15px;">가격: <input type="number" step="0.01" name="price" required style="font-family:inherit; padding:4px; border-radius:4px; border:1px solid #ccc; width:100px;"></label>
+        <label style="margin-right:15px;">주문유형: 
+            <select name="orderType" required style="font-family:inherit; padding:4px; border-radius:4px; border:1px solid #ccc;">
+                <option value="limit">지정가</option>
+                <option value="price">시장가</option>
+            </select>
+        </label>
+        <button type="submit" style="background-color:#3A7732; color:white; border:none; padding:8px 15px; border-radius:5px; font-family:inherit;">주문하기</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>통화</th>
+                <th>잔액</th>
+                <th>거래중</th>
+                <th>평균매수가</th>
+                <th>기준통화</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="account : ${bithumbAccounts}">
+                <td th:text="${account.currency}"></td>
+                <td th:text="${account.balance}"></td>
+                <td th:text="${account.locked}"></td>
+                <td th:text="${account.avgBuyPrice}"></td>
+                <td th:text="${account.unitCurrency}"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
